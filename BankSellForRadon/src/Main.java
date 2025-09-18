@@ -39,31 +39,31 @@ public class Main {
 
                 if (GoldSelect == 24) { // maybe the user could write 24Kt and the code will crash, how do I solve this issue?
 
-                    System.out.println("Perfect, 24 kt gold is currently set to " + gold24 + ("€ per gram"));
+                    System.out.println("Perfect, 24 kt gold is currently set to " + gold24 + (" € per gram"));
                     Scanner GoldAmount = new Scanner(System.in);
                     System.out.println();
                     System.out.println("How much gold do you want to sell?");
                     System.out.println();
                     int GoldAm = GoldAmount.nextInt(); // float issue here?
-                    System.out.println("Your sell price is" + gold24*GoldAm + ("€ ")); // for all the prints, I want them to only pull .2f and it always crashes when I use decimals, float issue??
+                    System.out.println("Your sell price is " + gold24*GoldAm + ("€ ")); // for all the prints, I want them to only pull .2f and it always crashes when I use decimals, float issue??
 
                 } else if (GoldSelect == 22) {
-                    System.out.println("Perfect, 22 kt gold is currently set to " + gold22 + ("€ per gram"));
+                    System.out.println("Perfect, 22 kt gold is currently set to " + gold22 + (" € per gram"));
                     Scanner GoldAmount = new Scanner(System.in);
                     System.out.println();
                     System.out.println("How much gold do you want to sell?");
                     System.out.println();
                     int GoldAm = GoldAmount.nextInt();
-                    System.out.println("Your sell price is" + gold22*GoldAm + ("€ "));
+                    System.out.println("Your sell price is " + gold22*GoldAm + ("€ "));
 
                 } else if (GoldSelect == 18) {
-                    System.out.println("Perfect, 18 kt gold is currently set to " + gold18 + ("€ per gram"));
+                    System.out.println("Perfect, 18 kt gold is currently set to " + gold18 + (" € per gram"));
                     System.out.println();
                     Scanner GoldAmount = new Scanner(System.in);
                     System.out.println("How much gold do you want to sell?");
                     int GoldAm = GoldAmount.nextInt();
                     System.out.println();
-                    System.out.println("Your sell price is" + gold18*GoldAm + ("€ "));
+                    System.out.println("Your sell price is " + gold18*GoldAm + ("€ "));
                 }
 
             } else if (YorN == 2) {
